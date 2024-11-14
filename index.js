@@ -23,7 +23,10 @@ function increment(){
 function save(){
     let preEntry = count + " - "
     previousEntriesEl.innerText += preEntry
+   countEl.textContent = 0
+    
     console.log(count)
+    count = 0
 }
 
 
